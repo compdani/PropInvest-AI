@@ -13,13 +13,14 @@ struct Property: Identifiable {
     var city: String
     var state: String
     var zip: String
+    var status: Int
     var bed: String
     var bath: Float
     var price: Float
     var type: String
     var land: Int64
     var floor: Int64
-    var level: Int16
+    var level: Int
     var description: String
     var location: Location
     var pics: Array<String>
